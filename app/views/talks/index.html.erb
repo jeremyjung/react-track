@@ -1,0 +1,9 @@
+<h1>A list of talks would go here.</h1>
+
+<ul class="talks">
+  <% @talks.each do |talk| %>
+    <li>
+      <%= talk.name %>
+    </li>
+  <% end %>
+</ul>
