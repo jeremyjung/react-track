@@ -3,12 +3,6 @@
 // of the page.
 
 import Hello from 'react-track/components/Hello'
-import React from 'react'
-import ReactDOM from 'react-dom'
+import WebpackerReact from 'webpacker-react'
 
-document.addEventListener('DOMContentLoaded', () => {
-  ReactDOM.render(
-    <Hello name="React" />,
-    document.body.appendChild(document.createElement('div')),
-  )
-})
+WebpackerReact.setup({Hello})
