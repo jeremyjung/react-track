@@ -2,7 +2,7 @@
 // like app/views/layouts/application.html.erb. All it does is render <div>Hello React</div> at the bottom
 // of the page.
 
-import Hello from '../react-track/components/Hello'
+import Hello from 'react-track/components/Hello'
 import React from 'react'
 import ReactDOM from 'react-dom'
 
